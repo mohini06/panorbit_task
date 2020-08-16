@@ -1,0 +1,151 @@
+.list_proprty-bg {
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: darkslategray;
+    margin-left: 10px;
+    font-size: 16px;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+.flex-me {
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 3% 3%;
+}
+.example-card{
+height: 70px;
+width: 200px;
+
+/* width: %; */
+}
+.eachprop_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+/* Column Gap */
+
+.eachprop_div>* {
+    box-sizing: border-box;
+}
+
+.eachprop_div>*:not(:last-child) {
+    margin-right: 32px;
+}
+
+
+/* Item sizing */
+
+.eachprop_divItem {
+    flex: 0 1 calc(33.3% - 32px);
+}
+
+mat-card {
+    /* height: 500px; */
+    width: 90%;
+    background: #fff;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+mat-card-content {
+    font-size: 12px;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+.list-image-size {
+    height: 50px;
+    object-position: left;
+    object-fit: contain;
+    margin-left: 5px;
+    width: 88px;
+}
+
+.background-col {
+    width: 100%;
+    height: 600px;
+    margin: 0%;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+.addproperty_button {
+    /* margin-left: 752px; */
+    background-color: #1e699d;
+    color: white;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+    margin-right: 8%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.heading_list {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+    text-align: left;
+    color: #1c5e8f;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.btn-icon-mini[_ngcontent-c5] {
+    height: 3.575rem;
+    min-width: 3.575rem;
+    width: 3.575rem;
+    position: fixed;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, .3);
+    right: 30px;
+    float: right;
+    border-radius: 50px;
+    border: 0px;
+    color: #fff;
+    background-color: #1e699d;
+    outline: none;
+}
+
+.nodata {
+    height: 200px;
+    width: 400px;
+    margin-left: 74px;
+    margin-top: 20px;
+}
+
+.nodata_msg {
+    color: #2989d8;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.nodata-res {
+    height: 200px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.nodata_msg-res {
+    color: #2989d8;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.profileimg {
+    height: 40px;
+    width: 40px;
+}

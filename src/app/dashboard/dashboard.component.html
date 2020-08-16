@@ -1,0 +1,48 @@
+<div fx fxLayoutGap="2%" fxLayoutAlign="center">
+    <div fxFlex fxLayoutAlign="start">
+        <h3 class="heading_list"> All Users</h3>
+    </div>
+    
+</div>
+<div fx2 fxLayoutGap="2%" fxLayoutAlign="center">
+    <mat-card class="outer-matcard">
+        <ng-scrollbar class="my-scrollbar_listprop">
+            <div class="container eachprop_div" fxLayout="row" fxLayout.lt-sm="column" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="2%" fxLayoutAlign="center">
+                <div *ngIf="data?.length == 0">
+                    <img src="assets/images/android-icons/noprofile.png" class="nodata">
+                    <p class="nodata_msg">You have not added any Owner yet!</p>
+                </div>
+                <div *ngFor="let datas of data">
+                    <div class="eachprop_divItem">
+
+                        <a (click)="viewProfile(datas.id)">
+                            <mat-card class="example-card">
+                                <mat-card-content>
+                                    <div class="container" fxLayout="row" fxLayout.lt-sm="row" fxLayout.xs="row" fxLayoutWrap fxLayoutGap="0%">
+
+                                        <div fxLayout="column" fxLayout.lt-sm="column" fxLayout.xs="column" fxLayoutGap="1%">
+                                            <img src={{datas.profilepicture}} class="profileimg">
+                                        </div>
+                                        <div>
+                                            <label class="name"> {{datas.name}}</label>
+                                        </div>
+                                    </div>
+                              
+                                    <br>
+                                    <div>
+                                    </div>
+                                    <div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </a>
+                    </div>
+                    <br>
+                </div>
+                <div>
+                </div>
+            </div>
+            <br>
+        </ng-scrollbar>
+    </mat-card>
+</div>

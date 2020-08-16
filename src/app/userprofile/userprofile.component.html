@@ -1,0 +1,49 @@
+<div class="background-col">
+        <div fx fxLayoutGap="2%" fxLayoutAlign="center">
+                <div fxFlex fxLayoutAlign="start">
+                   
+              <h3 class="heading_list"> {{user?.username}}s</h3> 
+                </div>
+                <div fxFlex fxLayout fxLayoutAlign="end">
+                        <button mat-button class="addproperty_button">
+                                <a routerLink="">Home </a>  </button>
+                         <button mat-button class="addproperty_button">
+                         <a (click)="viewProfile(user.id)">Profile Details </a></button>
+                      
+                        
+                        <button mat-button class="addproperty_button"><a routerLink="posts">
+                            Posts Details</a></button>
+                        
+                        <button mat-button class="addproperty_button">
+                                <a routerLink="galary">Gallery  </a>  </button>
+                             
+                        <button mat-button class="addproperty_button" >ToDo  </button>
+
+                </div>
+            </div>
+    <mat-card class="example-card outer-matcard">
+
+            <div fx fxLayoutGap="1%" fxLayoutAlign="start">
+            
+               <div>
+                    <mat-card-content>
+                            <ul>
+                                <li>Name:{{user?.name}}</li>
+                                <li>Email:{{user?.email}}</li>
+                                <li>Contact No:{{user?.phone}}</li>
+                                <li>Website:{{user?.website}}</li>
+                            </ul>
+                          
+                          </mat-card-content>
+               </div>
+               <div >
+                    <img src={{user?.profilepicture}} class="pro_img">
+        
+                  
+               </div>
+                </div>
+  
+
+    
+    </mat-card>
+</div>

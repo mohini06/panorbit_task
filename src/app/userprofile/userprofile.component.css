@@ -1,0 +1,108 @@
+.example-card {
+    max-width: 100%;
+    margin-left: 4%;
+    /* margin-top: 30px; */
+    margin-right: 4%;
+    height: auto;
+    width: 92%;
+    margin-top: 2%;
+}
+.example-card ui {
+    list-style-type: none;
+    font: 100;
+}
+.desc_scroll {
+    height: 450px;
+    --scrollbar-color: transparent;
+    --scrollbar-container-color: transparent;
+    --scrollbar-thumb-color: rgba(0, 0, 0, 0.2);
+    --scrollbar-thumb-hover-color: rgba(0, 0, 0, 0.3);
+    --scrollbar-border-radius: 4px;
+    --scrollbar-size: 6px;
+    --scrollbar-padding: 0px;
+    --scroll-view-margin: 0;
+    --scroll-view-color: transparent;
+}
+
+.documents {
+    /* height: 50px; */
+    width: 50px;
+    margin: 5px;
+}
+
+.heading>::ng-deep .mat-figure {
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 15px;
+    margin-left: 40%;
+    /*  margin-right:5%; */
+    text-align: left !important;
+    font-weight: bold;
+}
+
+.heading-img>::ng-deep .mat-figure {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 5px;
+    margin-left: 60%;
+    /*  margin-right:5%; */
+}
+
+
+.pro_img {
+    height: 50px;
+
+ width: 55px;
+    margin-left: 75%;
+    margin-top: 1%;
+
+
+}
+
+ .value-img>::ng-deep .mat-figure {
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-left: 0%;
+    /*
+      margin-right:2%; */
+    text-align: left !important;
+}
+
+.value>::ng-deep .mat-figure {
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-left: 40%;
+    /*
+        margin-right:2%; */
+    text-align: left !important;
+}
+.background-col{
+    padding: 20px;
+}
+.addproperty_button {
+    /* margin-left: 752px; */
+    background-color: #1e699d;
+    width: 200px;
+    color: white;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.addproperty_button a{
+    color:white;
+}
+.heading_list {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+    text-align: left;
+    color: #1c5e8f;
+    margin-left: 8%;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+.mat-card {
+    padding: 16px;
+}
